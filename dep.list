@@ -1,0 +1,89 @@
+.cache/ansi.o: src/ansi.c src/ttydef.h src/config.h src/ansi.h src/def.h \
+ src/queue.h src/tree.h src/chrdef.h
+.cache/autoexec.o: src/autoexec.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/funmap.h
+.cache/basic.o: src/basic.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h
+.cache/bell.o: src/bell.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/macro.h
+.cache/buffer.o: src/buffer.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/kbd.h
+.cache/cinfo.o: src/cinfo.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h
+.cache/cmode.o: src/cmode.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/funmap.h src/kbd.h
+.cache/cscope.o: src/cscope.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h
+.cache/dir.o: src/dir.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h
+.cache/dired.o: src/dired.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/funmap.h src/kbd.h
+.cache/display.o: src/display.c src/ttydef.h src/config.h src/ansi.h src/def.h \
+ src/queue.h src/tree.h src/chrdef.h src/kbd.h
+.cache/echo.o: src/echo.c src/ttydef.h src/config.h src/ansi.h src/def.h \
+ src/queue.h src/tree.h src/chrdef.h src/funmap.h src/key.h src/macro.h
+.cache/extend.o: src/extend.c src/chrdef.h src/def.h src/config.h src/queue.h \
+ src/tree.h src/funmap.h src/kbd.h src/key.h src/macro.h
+.cache/extensions.o: src/extensions.c src/def.h src/config.h src/queue.h \
+ src/tree.h src/chrdef.h
+.cache/file.o: src/file.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h
+.cache/fileio.o: src/fileio.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/kbd.h src/pathnames.h
+.cache/fparseln.o: src/fparseln.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h
+.cache/funmap.o: src/funmap.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/funmap.h src/kbd.h
+.cache/grep.o: src/grep.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/kbd.h src/funmap.h
+.cache/help.o: src/help.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/funmap.h src/kbd.h src/key.h src/macro.h
+.cache/interpreter.o: src/interpreter.c src/def.h src/config.h src/queue.h \
+ src/tree.h src/chrdef.h src/funmap.h
+.cache/kbd.o: src/kbd.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/kbd.h src/key.h src/macro.h
+.cache/keymap.o: src/keymap.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/kbd.h
+.cache/line.o: src/line.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h
+.cache/log.o: src/log.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/key.h src/kbd.h src/funmap.h src/log.h
+.cache/macro.o: src/macro.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/key.h src/macro.h
+.cache/main.o: src/main.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/kbd.h src/funmap.h src/macro.h
+.cache/match.o: src/match.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/key.h
+.cache/modes.o: src/modes.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/kbd.h
+.cache/paragraph.o: src/paragraph.c src/def.h src/config.h src/queue.h \
+ src/tree.h src/chrdef.h
+.cache/re_search.o: src/re_search.c src/def.h src/config.h src/queue.h \
+ src/tree.h src/chrdef.h src/macro.h
+.cache/region.o: src/region.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h
+.cache/search.o: src/search.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/macro.h
+.cache/spawn.o: src/spawn.c src/ttydef.h src/config.h src/ansi.h src/def.h \
+ src/queue.h src/tree.h src/chrdef.h
+.cache/strtonum.o: src/strtonum.c
+.cache/tags.o: src/tags.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h
+.cache/tty.o: src/tty.c src/ttydef.h src/config.h src/ansi.h src/def.h \
+ src/queue.h src/tree.h src/chrdef.h
+.cache/ttyio.o: src/ttyio.c src/ttydef.h src/config.h src/ansi.h src/def.h \
+ src/queue.h src/tree.h src/chrdef.h
+.cache/ttykbd.o: src/ttykbd.c src/ttydef.h src/config.h src/ansi.h src/def.h \
+ src/queue.h src/tree.h src/chrdef.h src/kbd.h
+.cache/undo.o: src/undo.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h src/kbd.h
+.cache/util.o: src/util.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h
+.cache/version.o: src/version.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h
+.cache/window.o: src/window.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h
+.cache/word.o: src/word.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h
+.cache/yank.o: src/yank.c src/def.h src/config.h src/queue.h src/tree.h \
+ src/chrdef.h
